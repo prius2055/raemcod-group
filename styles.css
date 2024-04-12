@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-panel {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  background-color: blue;
+}
+
+a {
+  color: white;
+}
