@@ -69,7 +69,7 @@
 
 #home {
   background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-    url('/img/hero-image-2.jpg');
+    url('/img/hero-image.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 90vh;
@@ -98,9 +98,185 @@
 .hero-detail a {
   text-decoration: none;
   color: white;
-  background-color: #f05836;
+  background-color: #16a44b;
   padding: 0.8rem 2rem;
   font-weight: 500;
   font-size: 14px;
-  /* margin-bottom: 1rem; */
+}
+
+#about {
+  margin-top: 5rem;
+}
+
+.about-us {
+  padding-left: 20rem;
+  padding-right: 20rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-us img {
+  width: 550px;
+  height: 620px;
+  margin-right: 2rem;
+  border-radius: 1rem;
+}
+
+hr {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  background-color: #16a44b;
+  width: 100px;
+  height: 0.3rem;
+}
+
+.about-us p {
+  margin-top: 1.5rem;
+  color: #6c747c;
+}
+
+#services {
+  background-color: rgb(241, 248, 255);
+  margin-top: 5rem;
+  padding-left: 20rem;
+  padding-right: 20rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.our-services {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.service {
+  border: 1px solid #11467a;
+  border-radius: 1rem;
+  margin-right: 1.2rem;
+  padding: 1rem;
+  cursor: pointer;
+  width: 33.3%;
+}
+
+.service p {
+  margin-top: 1rem;
+  color: #6c747c;
+}
+
+#team {
+  margin-top: 5rem;
+  padding-left: 20rem;
+  padding-right: 20rem;
+}
+
+.our-team {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.team-member {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  border-radius: 1rem;
+  margin-right: 1.2rem;
+  padding: 1rem;
+  width: 33.3%;
+}
+
+.team-member img {
+  width: 200px;
+  height: 200px;
+}
+
+.team-member h4 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.team-member p {
+  text-align: center;
+}
+
+#contact {
+  background-image: linear-gradient(
+      105deg,
+      rgba(241, 248, 255, 0.8),
+      0%,
+      rgba(241, 248, 255, 0.8) 50%,
+      transparent 45%
+    ),
+    url(img/contact-call.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 15%;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.contact-us {
+  margin-left: 20rem;
+  width: 30%;
+}
+
+.contact-us p {
+  color: #6c747c;
+}
+
+.contact-address,
+.contact-phone,
+.contact-website,
+.contact-email {
+  margin-top: 2rem;
+}
+
+.fa-location-dot,
+.fa-phone,
+.fa-envelope,
+.fa-link {
+  color: #16a44b;
+}
+
+.footer {
+  background-color: #11467a;
+  color: white;
+}
+
+.page-footer {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+
+  align-items: center;
+  padding-left: 20rem;
+  padding-right: 20rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 60%;
+  margin-top: 2rem;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.page-footer img {
+  height: 2rem;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  display: flex;
 }
