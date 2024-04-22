@@ -189,7 +189,6 @@ hr {
   color: #6c747c;
 }
 
-
 .service-link {
   margin-top: 1rem;
   color: #16a44b;
@@ -233,7 +232,7 @@ hr {
 }
 
 .blog-post p {
-  /* text-align: center; */
+  color: #f1f8ff;
 }
 
 #contact {
