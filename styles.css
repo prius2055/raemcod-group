@@ -214,14 +214,37 @@ hr {
 }
 
 .service-link:hover {
- 
   color: white;
   background-color: #16a44b;
 }
 
-#blog {
+.our-careers {
   margin-top: 5rem;
   margin-bottom: 5rem;
+  padding-left: 20rem;
+  padding-right: 20rem;
+}
+
+.our-careers h4 {
+  margin-bottom: 1rem;
+}
+
+.career-note {
+  color: #11467a;
+  font-weight: 600;
+  background-color: #f1f8ff;
+  border-left: 10px solid #11467a;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  box-shadow: 2px 4px 8px #585858;
+}
+
+.career-instruction {
+  color: #6c747c;
+}
+
+#blog {
+  margin-top: 5rem;
   padding-left: 20rem;
   padding-right: 20rem;
 }
@@ -232,10 +255,6 @@ hr {
 }
 
 .blog-post {
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* align-items: center; */
-  /* border-radius: 1rem; */
   margin-right: 1.2rem;
   width: 33.3%;
 }
